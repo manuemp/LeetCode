@@ -16,7 +16,7 @@ namespace LeetCode.TopInterviewEasy.Trees
     //la comparación con and voy a obtener false, entonces se guarda el resultado en
     //caso de que haya un nodo que no cumpla con la premisa de un árbol válido.
 
-    //Si el nodo es null, o sea, llego a una rama del árbol, se devuelve true porque
+    //Si el nodo es null (llego al final del árbol), se devuelve true porque
     //al llegar al un nodo nulo no tengo con qué compararlo, y como a priori no sé si el
     //árbol es válido o no, devuelvo true que no me va a afectar en la comparación &&.
 
@@ -29,20 +29,20 @@ namespace LeetCode.TopInterviewEasy.Trees
 		{
 		}
 
-        public bool isValidBST(TreeNode root)
-        {
-            return valid(root, long.MinValue, long.MaxValue);
-        }
-
-        public bool valid(TreeNode node, long left, long right)
-        {
-            if (node == null) return true;
-
-            if (!(node.val < right && node.val > left)) return false;
-
-            return (valid(node.left, left, node.val) &&
-                   valid(node.right, node.val, right));
-        }
+		public bool isValidBST(TreeNode root)
+		{
+		    return valid(root, long.MinValue, long.MaxValue);
+		}
+		
+		public bool valid(TreeNode node, long left, long right)
+		{
+		    if (node == null) return true;
+		
+		    if (!(node.val < right && node.val > left)) return false;
+		
+		    return (valid(node.left, left, node.val) &&
+			   valid(node.right, node.val, right));
+		}
     }
 }
 
