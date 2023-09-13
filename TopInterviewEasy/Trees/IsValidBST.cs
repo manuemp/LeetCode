@@ -47,6 +47,42 @@ namespace LeetCode.TopInterviewEasy.Trees
 }
 
 
+//SOLUCION DE LEETCODE CON STACK
+
+//public class Solution
+//{
+//    public bool IsValidBST(TreeNode root)
+//    {
+//        if (root == null)
+//        {
+//            return true;
+//        }
+
+//        TreeNode current = root;
+//        Stack<TreeNode> stack = new Stack<TreeNode>();
+//        int? prev = null;
+//        while (current != null || stack.Count > 0)
+//        {
+//            while (current != null)
+//            {
+//                stack.Push(current);
+//                current = current.left;
+//            }
+
+//            current = stack.Pop();
+//            if (prev != null && prev >= current.val)
+//            {
+//                return false;
+//            }
+
+//            prev = current.val;
+//            current = current.right;
+//        }
+
+//        return true;
+//    }
+//}
+
 
 
 
