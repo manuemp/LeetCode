@@ -46,6 +46,36 @@ namespace LeetCode.TopInterviewEasy.Trees
     }
 }
 
+//Si la lógica del algoritmo InOrder es visitar los nodos de un BinarySearch Tree
+//en forma ordenada, otra solución podría ser agregar a una lista cada valor de los nodos
+//visitados mediante el algoritmo InOrder. En caso de que la lista no esté ordenada
+//de menor a mayor, entonces el árbol no es válido.
+//La solución es correcta, es razonablemente rápida, pero usa más memoria que la anterior
+
+//public bool IsValidBST(TreeNode root)
+//{
+//    List<int> list = new List<int>();
+
+//    inOrder(root, list);
+
+//    for (int i = 0; i < list.Count - 1; i++)
+//        if (list[i] >= list[i + 1]) return false;
+
+//    return true;
+//}
+
+//public void inOrder(TreeNode root, List<int> list)
+//{
+//    if (root == null) return;
+
+//    inOrder(root.left, list);
+//    list.Add(root.val);
+//    inOrder(root.right, list);
+
+//}
+
+
+
 
 //SOLUCION DE LEETCODE CON STACK
 
