@@ -49,10 +49,12 @@ namespace LeetCode.TopInterviewEasy.SortingAndSearching
                     nums1[m - 1] = 0;
                     m--;
                 }
+                //decremento len, que indica la posición en la que se colocará
+                //el siguiente número
                 len--;
             }
 
-            //cuando no queren números en nums1, coloco en los 0 que quedan
+            //cuando no queden números en nums1, coloco en los 0 que quedan
             //lo que reste de nums2 para terminar la unión
             while (zeroes > 0 && n > 0)
             {
