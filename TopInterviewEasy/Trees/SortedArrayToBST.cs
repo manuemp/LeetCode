@@ -32,7 +32,7 @@ namespace LeetCode.TopInterviewEasy.Trees
         //del array original.
         //Cuando vaya por la derecha, right siempre es el último índice y left un nodo
         //mayor a la mitad original del array.
-        //En ambos casos, mid calcula con precisión la el índice intermedio de ese subarray.
+        //En ambos casos, mid calcula con precisión el índice intermedio de ese subarray.
 
         public TreeNode sortedArrayToBST(int[] nums)
         {
