@@ -1,0 +1,15 @@
+/Users/manuelpedro/Projects/LeetCode/LeetCode/bin/Debug/net7.0/LeetCode
+/Users/manuelpedro/Projects/LeetCode/LeetCode/bin/Debug/net7.0/LeetCode.deps.json
+/Users/manuelpedro/Projects/LeetCode/LeetCode/bin/Debug/net7.0/LeetCode.runtimeconfig.json
+/Users/manuelpedro/Projects/LeetCode/LeetCode/bin/Debug/net7.0/LeetCode.dll
+/Users/manuelpedro/Projects/LeetCode/LeetCode/bin/Debug/net7.0/LeetCode.pdb
+/Users/manuelpedro/Projects/LeetCode/LeetCode/obj/Debug/net7.0/LeetCode.csproj.AssemblyReference.cache
+/Users/manuelpedro/Projects/LeetCode/LeetCode/obj/Debug/net7.0/LeetCode.GeneratedMSBuildEditorConfig.editorconfig
+/Users/manuelpedro/Projects/LeetCode/LeetCode/obj/Debug/net7.0/LeetCode.AssemblyInfoInputs.cache
+/Users/manuelpedro/Projects/LeetCode/LeetCode/obj/Debug/net7.0/LeetCode.AssemblyInfo.cs
+/Users/manuelpedro/Projects/LeetCode/LeetCode/obj/Debug/net7.0/LeetCode.csproj.CoreCompileInputs.cache
+/Users/manuelpedro/Projects/LeetCode/LeetCode/obj/Debug/net7.0/LeetCode.dll
+/Users/manuelpedro/Projects/LeetCode/LeetCode/obj/Debug/net7.0/refint/LeetCode.dll
+/Users/manuelpedro/Projects/LeetCode/LeetCode/obj/Debug/net7.0/LeetCode.pdb
+/Users/manuelpedro/Projects/LeetCode/LeetCode/obj/Debug/net7.0/LeetCode.genruntimeconfig.cache
+/Users/manuelpedro/Projects/LeetCode/LeetCode/obj/Debug/net7.0/ref/LeetCode.dll

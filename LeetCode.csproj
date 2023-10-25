@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Pruebas\" />
+    <None Remove="BinaryTreeDFS\" />
+    <None Remove="TopInterviewEasy\" />
+    <None Remove="TopInterviewEasy\Arrays\" />
+    <None Remove="TopInterviewEasy\Strings\" />
+    <None Remove="TopInterviewEasy\LinkedLists\" />
+    <None Remove="TopInterviewEasy\Trees\" />
+    <None Remove="LeetCode75\" />
+    <None Remove="TopInterviewEasy\SortingAndSearching\" />
+    <None Remove="Trees\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Pruebas\" />
+    <Folder Include="BinaryTreeDFS\" />
+    <Folder Include="TopInterviewEasy\" />
+    <Folder Include="TopInterviewEasy\Arrays\" />
+    <Folder Include="TopInterviewEasy\Strings\" />
+    <Folder Include="TopInterviewEasy\LinkedLists\" />
+    <Folder Include="TopInterviewEasy\Trees\" />
+    <Folder Include="LeetCode75\" />
+    <Folder Include="TopInterviewEasy\SortingAndSearching\" />
+    <Folder Include="Trees\" />
+  </ItemGroup>
+</Project>

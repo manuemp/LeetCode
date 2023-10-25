@@ -1,5 +1,5 @@
 ﻿using System;
-namespace LeetCode.Trees_General
+namespace LeetCode.Trees
 {
 	public class MinDepth
 	{

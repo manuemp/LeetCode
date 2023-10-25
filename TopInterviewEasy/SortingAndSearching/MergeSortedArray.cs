@@ -35,8 +35,7 @@ namespace LeetCode.TopInterviewEasy.SortingAndSearching
                 //comparo el último número -diferente de 0- en nums1 y nums2
                 if (nums1[m - 1] < nums2[n - 1])
                 {
-                    nums1[len] = nums2[n - 1];
-                    n--;
+                    nums1[len] = nums2[--n];
                     //resto el contador
                     zeroes--;
                 }
@@ -46,8 +45,7 @@ namespace LeetCode.TopInterviewEasy.SortingAndSearching
                     //y agrego un 0 donde estaba el número antes, porque no coloqué
                     //un número nuevo en el array, solo lo acomodé
                     nums1[len] = nums1[m - 1];
-                    nums1[m - 1] = 0;
-                    m--;
+                    nums1[--m] = 0;
                 }
                 //decremento len, que indica la posición en la que se colocará
                 //el siguiente número
@@ -58,8 +56,7 @@ namespace LeetCode.TopInterviewEasy.SortingAndSearching
             //lo que reste de nums2 para terminar la unión
             while (zeroes > 0 && n > 0)
             {
-                nums1[len] = nums2[n - 1];
-                n--;
+                nums1[len] = nums2[--n];
                 zeroes--;
                 len--;
             }
